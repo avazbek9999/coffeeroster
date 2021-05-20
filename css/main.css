@@ -1,0 +1,578 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+}
+
+.container {
+    width: 1260px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-lisst-items {
+    margin-left: 40px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #1f1534;
+}
+
+/* section-healthkare */
+
+.healthcare .container {
+    display: flex;
+    align-items: center;
+    margin-top: 86px;
+    justify-content: space-between;
+    margin-bottom: 194px;
+}
+
+.healthcare-left {
+    width: 445px;
+    height: 336px;
+}
+
+.helthcare-headding {
+    width: 427px;
+    height: 115px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+.healthcare-paragrf {
+    width: 445px;
+    height: 100px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7d7987;
+    margin-bottom: 37px;
+}
+
+.healthcare-link {
+    display: flex;
+    width: 200px;
+    height: 62px;
+    background-color: #458ff6;
+    border-radius: 56px;
+    font-family: mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* our services */
+
+.our-services .container {
+    text-align: center;
+}
+
+.our-servises-headding {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.our-services-span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 33px;
+}
+
+.our-servises-paragrf {
+    display: inline-block;
+    width: 952px;
+    height: 60px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7d7987;
+    margin-bottom: 80px;
+}
+
+.services-list {
+    margin-bottom: 70px;
+}
+
+.services-list-items {
+    display: inline-block;
+    font-family: Mulish;
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    padding: 0 34px;
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: left;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.services-list-items-img {
+    margin-top: 56px;
+    margin-bottom: 23px;
+}
+
+.services-list-items-headding {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.services-list-items-paragrf {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7d7987;
+}
+
+.services-link {
+    width: 200px;
+    height: 60px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    display: inline-block;
+    border: 1.3px solid #458ff6;
+    border-radius: 55px;
+    color: #458ff6;
+    text-decoration: none;
+    margin-bottom: 220px;
+}
+
+/* healthcare-providers */
+
+.healthcare-providers .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 229px;
+}
+
+.helthcare-providers-right {
+    width: 487px;
+    height: 388px;
+}
+
+.helthcare-providers-headding {
+    width: 452px;
+    height: 112px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.helthcare-providers-headding-span {
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 10px;
+    margin-bottom: 33px;
+}
+
+.helthcare-providers-paragrf {
+    width: 450px;
+    height: 120px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+    margin-bottom: 37px;
+}
+
+.helthcare-providers-link {
+    width: 200px;
+    height: 56px;
+    border: 1.4px solid #458ff6;
+    border-radius: 55px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458ff6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* downlod-apps */
+
+.downlod-apps .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 269px;
+}
+
+.downlod-apps-left-headding {
+    width: 254px;
+    height: 96px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.downlod-apps-left-span {
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    margin-bottom: 31px;
+}
+
+.downlod-apps-left-paragrf {
+    width: 340px;
+    height: 120px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+    margin-bottom: 40px;
+}
+
+.downlod-apps-left-link {
+    width: 200px;
+    height: 56px;
+    display: flex;
+    border: 1.4px solid#458ff6;
+    border-radius: 55px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #458ff6;
+}
+
+.app-downlod-icon {
+    margin-left: 15px;
+}
+
+/* costumer-box */
+
+.costomer-box .container {
+    text-align: center;
+    width: 1120px;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    border-radius: 24px;
+    margin-bottom: 44px;
+}
+
+.costomer-box-header {
+    display: inline-block;
+    width: 522px;
+    height: 48px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-top: 61px;
+    margin-bottom: 25px;
+}
+
+.costomer-box-span {
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 66px;
+}
+
+.costumers-box-buttom {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+.costumers-box-buttom-paragrf {
+    width: 184px;
+    height: 48px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.costumers-box-buttom-post {
+    width: 420px;
+    height: 120px;
+    margin-left: 110px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.costumer-box-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 227px;
+    width: 400px;
+}
+
+.box-button-list {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+.box-button-span {
+    display: inline-block;
+    border-radius: 55px;
+    width: 8px;
+    height: 8px;
+    background: #5b9bf3;
+}
+
+/* lates-article */
+
+.lates-article .container {
+    text-align: center;
+    margin-bottom: 201px;
+}
+
+.lates-article-headding {
+    width: 462px;
+    height: 56px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin: auto;
+    margin-bottom: 26px;
+}
+
+.lates-article-span {
+    display: inline-block;
+    width: 56px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    background-color: #000000;
+}
+
+.lates-article-list {
+}
+
+.lates-article-list-item {
+    display: inline-block;
+    width: 350px;
+    height: 512px;
+    background: #ffffff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-right: 34px;
+    margin-bottom: 69px;
+}
+
+.lates-article-list-item-img {
+    border-radius: 20px 20px 0 0;
+}
+
+.article-list-item-buttom {
+    display: inline-block;
+    text-align: left;
+    padding: 12px 33px;
+}
+
+.buttom-header {
+    width: 251px;
+    height: 64px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.buttom-paragrf {
+    width: 266px;
+    height: 84px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7d7987;
+}
+
+.buttom-link {
+    width: 266px;
+    height: 28px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ed;
+    text-decoration: none;
+}
+
+.last-article-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458ff6;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458ff6;
+    text-decoration: none;
+}
+
+/* footer/ */
+
+.footor-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+    align-items: center;
+}
+
+.footor-section .container {
+    height: 432px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-box-left {
+    width: 391px;
+    height: 201px;
+}
+
+.footer-box-left-img {
+    margin-bottom: 17px;
+}
+
+.footer-box-left-paragrf {
+    width: 391px;
+    height: 84px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 31px;
+}
+
+.footer-box-left-tex {
+    width: 391px;
+    height: 28px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-list {
+}
+
+.footer-list-item {
+    display: flex;
+}
+
+.footer-right-list-item {
+    list-style: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    margin-left: 120px;
+}
